@@ -12,6 +12,11 @@
         justify-content: space-between;
         border-radius: 5px;
 
+
+        :hover {
+          
+        }
+
         &__icon {
             cursor: pointer;
             display: flex;
@@ -37,7 +42,8 @@
             font-weight: 300;
         }
 
-        &__delete {
+        &__change {
+            display: flex;
             font-size: 32px;
             opacity: 0.5;
             cursor: pointer;
